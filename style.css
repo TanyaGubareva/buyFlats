@@ -1,0 +1,237 @@
+.all {
+    display: grid;
+    grid-template-columns: 1000px 300px;
+    grid-template-rows: 100px 30px;
+}
+.firstFlats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+   padding-left: 120px;
+padding-right: 120px;
+font-family: 'Roboto';
+}
+.firstFlat {
+    text-align: center;
+    flex: 1;
+    background-color: antiquewhite;
+    width: 250px;
+    background: #00bcd40a;
+border-radius: 4px;
+margin-left: 20px;
+height: 350px;
+margin-bottom: 15px;
+}
+.flat1 {
+    width: 249px;
+    margin-bottom: -10px;
+}
+.cardsJK {
+    display: flex;
+    justify-content: center;
+}
+.comfort {
+    background-color: #FFCF26;
+color: black;
+border-radius: 4px;
+width: 80px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+font-size: 14px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+height: 22px;
+margin-bottom: 0px;
+padding-top: 3px;
+}
+.pay {
+    background-color: #11BE75;
+    color: white;
+    border-radius: 4px;
+    width: 150px;
+    font-size: 14px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+height: 22px;
+margin-left: 10px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+padding-top: 2px;
+}
+.term {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+padding-top: -5px;
+text-align: left;
+padding-left: 20px;
+}
+.metro {
+    display: grid;
+    grid-template-columns: 10px 100px;
+}
+.metro img {
+    padding-left: 18px;
+    
+}
+.metro p {
+    margin-top: -2px;
+    padding-left: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+}
+.street {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    color: #777777;
+    margin-top: -2px;
+    padding-left: 18px;
+}
+.dropbtn {
+    background-color: white;
+    outline: none;
+    border: none;
+    font-family: 'Roboto';
+    cursor: pointer;
+    font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+display: flex;
+margin-bottom: 20px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdown-content {
+    display: grid;
+    margin-top: 20px;
+    background-color: #f6f6f6;
+    border: 1px solid #D6D6D6;
+ margin-bottom: 30px;
+    width: 250px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 40px 60px;
+}
+.dropdown-content button {
+    outline: none;
+    border: none;
+    color: black;
+    font-family: 'Roboto';
+    background-color: white;
+  
+}
+
+.anything {
+grid-column-start: 1;
+grid-column-end: 6;
+border-top: 1px solid #D6D6D6 !important;
+}
+
+.rotated {
+    transform: rotate(90deg);
+    margin-left: 93px;
+    font-weight: 100;
+}
+.rotated1 {
+    transform: rotate(90deg);
+    margin-left: 145px;
+    font-weight: 100;
+}
+.check input {
+margin-bottom: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+.rotated2 {
+    transform: rotate(90deg);
+    margin-left: 45px;
+    font-weight: 100;
+    
+}
+.check a {
+    color: #4290C9;
+    text-decoration: none;
+}
+.switch {
+    display: flex;
+    justify-content: left;
+}
+.switch p {
+   margin-left: 18px;
+   margin-top: 29px;
+}
+.switch input {
+    margin-top: 20px;
+    -webkit-appearance: none;
+    outline: none;
+    background: #c6c6c6;
+border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    transition: .5s;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    position: relative;
+}
+.switch input:checked {
+    background:  #FFE074;
+}
+.switch input::before {
+content: '';
+position: absolute;
+width: 20px;
+height: 20px;
+border-radius: 20px;
+top: 9px;
+left: 4px;
+background: black;
+transition: .5s;
+transform: scale(1.1);
+}
+.switch input:checked::before {
+    left: 56px;
+}
+.filtersOn{
+    background: #FFCF26;
+border-radius: 4px;
+outline: none;
+border: none;
+text-align: center;
+width: 252px;
+height: 50px;
+margin-top: 10px;
+}
+.filtersOff {
+    background: white;
+border-radius: 4px;
+outline: none;
+border: 1px solid #D6D6D6;
+text-align: center;
+width: 252px;
+height: 50px;
+margin-top: 10px;
+}
+.else {
+    
+height: 80px;
+
+background: #E5E5E5;
+border-radius: 4px;
+}
+.all2 {
+    display: block;
+}
